@@ -4,8 +4,39 @@
   This program calls some functions that are either missing or incomplete.
   Update the code so that you get the expected result.
 */
+let num = 10;
+let Name = "Daniel";
+let word = "Daniel";
 
-function isNegative() {}
+
+function isNegative(num) {
+  if (num < 5) {
+    return true;
+}
+    return false;
+}
+function isBetween5and10(num) {
+  if (num >= 5 && num <=10) {
+    return true;
+}
+    return false;
+}
+
+function isShortName(Name) {
+  if (Name <= num || Name === num || Name >= num) {
+    return false;
+  }
+  return true;
+}
+
+function startsWithD (word) {
+ return word.charAt(0) === word.charAt(0).toUpperCase()
+}
+
+
+
+
+
 
 /* 
   DO NOT EDIT BELOW THIS LINE
