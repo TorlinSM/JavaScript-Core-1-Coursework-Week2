@@ -11,8 +11,8 @@ let cssLevel = 4;
 
 // Finish the statement to check whether HTML, CSS knowledge are above 5
 // (hint: use the comparison operator from before)
-let htmlLevelAbove5 = htmlLevel > cssLevel;
-let cssLevelAbove5 = htmlLevel < cssLevel;
+let htmlLevelAbove5 = htmlLevel > 5;
+let cssLevelAbove5 = htmlLevel < 5;
 
 
 // Finish the next two statement
