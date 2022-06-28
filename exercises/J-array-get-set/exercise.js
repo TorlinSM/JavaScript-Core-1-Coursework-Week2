@@ -5,11 +5,15 @@
 */
 
 function first(arr) {
-  return; // complete this statement
+  return arr[0]; // complete this statement
 }
 
 function last(arr) {
-  return; // complete this statement
+  if (numbers.length <= 3) {
+    return arr [3] || arr [2];
+  }
+  
+   // complete this statement
 }
 
 /* 
@@ -21,6 +25,7 @@ let names = ["Irina", "Ashleigh", "Mozafar", "Joe"];
 console.log(first(numbers));
 console.log(last(numbers));
 console.log(last(names));
+
 
 /* 
   EXPECTED RESULT
